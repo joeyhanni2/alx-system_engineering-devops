@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""accessing a REST API for todo lists of employees"""
+"""Accessing a REST API for todo lists of employees"""
 
 import requests
 import sys
@@ -28,4 +28,4 @@ if __name__ == '__main__':
           .format(employeeName, done, len(tasks)))
 
     for task in done_tasks:
-        print("\t {}".format(task.get('title'))
+        print("\t {}".format(task.get('title')))
